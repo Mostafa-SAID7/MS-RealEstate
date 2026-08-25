@@ -1,4 +1,4 @@
-import portraitAsset from "@/assets/portrait-cutout.webp.asset.json";
+import portraitImg from "@/assets/portrait-cutout.webp";
 import { Reveal } from "./Reveal";
 import { SectionHeader } from "./SectionHeader";
 
@@ -51,7 +51,7 @@ export function About() {
             />
             <div className="relative h-[26rem] w-full overflow-hidden rounded-4xl bg-gradient-to-b from-card to-background shadow-estate sm:h-[30rem] lg:h-[36rem]">
               <img
-                src={portraitAsset.url}
+                src={portraitImg}
                 alt="Portrait photograph"
                 loading="lazy"
                 decoding="async"
